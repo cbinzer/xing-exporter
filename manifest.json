@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "XING Guest List Exporter",
+  "description": "This extension exports a XING guest list in CSV format",
+  "version": "0.2.0",
+  "browser_action": {
+    "default_icon": "pig.png"
+  },
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
